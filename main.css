@@ -29,6 +29,7 @@ h1 {
   font-style: normal;
   margin-bottom: 0;
   font-size: 56pt;
+  line-height: 1;
 }
 
 .subtitle {
@@ -86,7 +87,7 @@ a:hover {
 }
 
 .padding-top {
-  padding-top: 50%;
+  padding-top: 40%;
 }
 
 /*Breakpoints*/
@@ -97,12 +98,18 @@ a:hover {
     margin: 0 auto;
     padding-top: 10%;
   }
+  .padding-top {
+  padding-top: 25%;
+  }
   }
 
   @media (min-width: 1042px) {
   .content {
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
     padding-top: 5%;
+  }
+  .padding-top {
+  padding-top: 25%;
   }
 }
