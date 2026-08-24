@@ -7,9 +7,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script>function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  } </script>
+  <script>
+function darkModeText() {
+  document.querySelectorAll("p").forEach(function(element) {
+    element.classList.toggle("dark-mode-p");
+  });
+  document.querySelectorAll("h2, button").forEach(function(element) {
+    element.classList.toggle("dark-mode-text");
+  });
+  document.querySelectorAll(".subtitle").forEach(function(elemet) {
+    element.classList.toggle("dark-mode-p");
+  })
+}
+
+  </script>
 </head>
 
 <body>
+  <button onclick="darkMode(); darkModeText()">Toggle Night Mode &#128526;</button>
+
   <div class="content">
     <h1>Matt Skinner</h1>
     <p class="subtitle">That is my name and this is my website :)</p>
@@ -20,7 +40,7 @@
     <p>My super-cool wife has a super-cool shop where she sells custom dice, crystals, jewellery, and other neat things. Go buy something right now at her <a href="https://mystic-nixe.square.site/">website.</a></p>
     <h2>Social Media</h2>
     <p>Once every few months I remember I have a <a href="https://bsky.app/profile/tworenniks.xyz">Bluesky</a> account and make a post.</p>
-    <p class="hello">That's all, folks!</p>
+    <p><span class="hello">That's all, folks!</span></p>
   </div>
 
   <div class="content">

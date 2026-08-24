@@ -14,6 +14,35 @@ Dark Vavy #2b2d42
 
 body {
   background-color: #edf2f4;
+  cursor: url('images/luffy_pointing.png'), auto;	
+}
+
+/* Dark mode */
+.dark-mode {
+  background-color: #1b1418;
+}
+
+.dark-mode-text {
+  color: white !important;
+}
+
+.dark-mode-p {
+  color: #c5dae2 !important;
+}
+
+button {
+  color: #ef233c;
+  background-color: transparent;
+  border: 2px solid #ef233c;
+  border-radius: 7px;
+  padding: 11px 20px;
+  float: right;
+  cursor: url('images/luffy_pointing.png'), auto;	
+}
+
+button:hover {
+  color: white;
+  background-color: #ef233c;
 }
 
 .content {
@@ -75,6 +104,7 @@ a {
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  cursor: url('images/luffy_pointing.png'), auto;	
 }
 
 a:hover {
@@ -113,3 +143,5 @@ a:hover {
   padding-top: 25%;
   }
 }
+
+
