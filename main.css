@@ -17,7 +17,7 @@ body {
 }
 
 .content {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 10%;
 }
@@ -87,4 +87,22 @@ a:hover {
 
 .padding-top {
   padding-top: 25%;
+}
+
+/*Breakpoints*/
+
+@media (min-width: 768px) {
+  .content {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10%;
+  }
+  }
+
+  @media (min-width: 1024px) {
+  .content {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10%;
+  }
 }
